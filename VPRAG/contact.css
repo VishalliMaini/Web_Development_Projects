@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url('https://cdn.pixabay.com/photo/2020/01/13/01/40/astronaut-4761434_1280.jpg ');
+  background-size: cover;
+  background-position: center;
+  height:1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* backdrop-filter: blur(10px); */
+  border-radius: 10px;
+  margin: 2rem;
+  
+}
+
+.info {
+  flex: 1;
+  padding: 1rem;
+  color: #fff;
+  margin-left:100px;
+  margin-top:-150px;
+  backdrop-filter: blur(100px);
+  color:whitesmoke;
+  text-align: center;
+  
+}
+table td{
+
+  border:1px solid black;
+  border-collapse: collapse;
+  height:40px;
+}
+.map {
+  flex: 1;
+  margin-top:-100px;;
+}
+
+.contact-form {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* backdrop-filter: blur(10px); */
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem;
+  margin-top: -10px;
+  width: 1300px;
+  /* position: relative;
+left: 60%; */
+justify-content: space-between;
+}
+
+.contact-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+.contact-form input[type="text"], .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #0056b3;
+}

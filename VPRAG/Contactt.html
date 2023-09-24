@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="navstyle.css"></link>
+<!-- <link rel="stylesheet" href="about.css"></link> -->
+<link rel="stylesheet" href="footer.css"></link>
+<style>
+            body {
+            font-family: Arial, sans-serif;
+            background-image: url("Images/astronaut-4761434 2.jpg");
+            margin: 0;
+            padding: 0;
+        }
+    .container1 {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid rgb(20, 19, 19);
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
+        }
+        .map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .containers {
+    background-color: white;
+    padding: 20px;
+    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    
+    transition: border-color 0.3s;
+}
+button.sbut:hover{
+  color:rgb(207, 154, 7);
+}
+</style>
+</head>
+<body>
+
+<div class="nav">
+    <div class="logo"><img src="img/logo.png"><h4 style="color:white;text-align: center;">Unveiling the Secrets of Chandrayaan...</h4></div>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    </div>
+</div>
+<br><br>
+
+<div class="container1">
+    <h2 style="color: white; text-align: center; font-weight: 900;">Contact Information</h2>
+    <div class="cform" style="display:flex;">
+   <div class="div1" style="height:420px;background-color: #f2f2f2;">
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>VPRAG</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>vpragmoon@gmail.com</td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td>+91 9876543210</td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>Chitkara University , Punjab</td>
+        </tr>
+
+    </table>
+    <br>
+    <img src="img/GSAT-15.jpg" style="height:227.5px; width: 360px;">
+   </div>
+   <div class="containers div2" style="background-color: #f2f2f2; border-left: 1px solid black;">
+    <h1>Contact Us</h1>
+    <form id="contact-form" action="#" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+      <a href="timeline.html" style="text-decoration:none"><button class= "sbut" type="submit" style="background-color: rgb(34, 33, 32); color: white; ">Submit</button></a>
+    </form>
+</div>
+</div>
+    <h2 style="color: white; text-align: center; font-weight: 900;">Location</h2>
+    <div class="map-container">
+
+        <iframe class="map" src="https://www.google.com/maps/embed/v1/place?q=Chitkara+University,+Rajpura,+Punjab,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Vprag</h4>
+          <ul>
+            <li><a href="timeline.html">HOME</a></li>
+            <li><a href="about.html">ABOUT </a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy policies</a></li>
+            
+          </ul>
+        </div>
+      
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="copyright"><h5>© 2023-2025 Vprag. All Rights Reserved.</h5></span>
+  
+  </footer>
+  </body>
+  </html>

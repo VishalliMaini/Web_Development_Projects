@@ -1,0 +1,99 @@
+/* body{
+    margin:0;
+    overflow-x: hidden;
+  }
+  .logo{
+    display: flex;
+  }
+  .logo img{
+    width:80px;
+    height:60px;
+  }
+  .logo h4:hover{
+    color:rgb(207, 154, 7);
+    
+  } */
+  /* .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black; */
+    /* background-image: url("/Users/akash/Desktop/VPRAG/Images/background1.jpg");
+    background-size: 40% 40%; */
+   /* color: white; */
+    /* padding: 10px 0;
+    text-align:right;
+    z-index: 1000;
+  }
+   */
+  /* Style for the navigation links */
+  /* .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+  }
+   */
+  /* Style for the navigation links on hover */
+  /* .navbar a:hover {
+   
+    color:rgb(207, 154, 7);
+    transition: 0.3s; 
+  } */
+  
+  /* Add some space below the fixed navigation bar */
+  /* body {
+    margin-top: 50px;
+    padding: 0;
+  } */
+
+  body{
+    margin:0;
+     overflow-x: hidden;
+     font-family: sans-serif;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    display:flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align:right;
+    z-index: 1000; /* Ensure the navbar is on top of other content */
+    height:50px;
+    justify-content: space-between;
+  }
+  .logo{
+    display: flex;
+  }
+  .logo img{
+    width:80px;
+    height:60px;
+  }
+  .logo h4:hover{
+    color:rgb(207, 154, 7);
+    
+  }
+  /* Style for the navigation links */
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+   
+  }
+  
+  /* Style for the navigation links on hover */
+  .navbar a:hover {
+   
+    color:rgb(207, 154, 7);
+    transition: 0.3s; /* Add a smooth transition effect */
+  }
+  
+  /* Add some space below the fixed navigation bar */
+  body {
+    margin-top: 50px;
+    padding: 0;
+  }
